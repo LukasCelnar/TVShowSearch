@@ -41,7 +41,7 @@ class ShowsList extends React.Component {
 
         return (
             <div className="shows_list">
-                <h1 className="shows_list__header">Search for every TV Show that exist</h1>
+                <h1 className="shows_list__header">Search every TV Show that exist</h1>
                 <SearchInput />
 
                 {this.renderedShows()}
