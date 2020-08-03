@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TVShowSearch/static/css/main.06baeb85.chunk.css",
+    "main.js": "/TVShowSearch/static/js/main.70301067.chunk.js",
+    "main.js.map": "/TVShowSearch/static/js/main.70301067.chunk.js.map",
+    "runtime-main.js": "/TVShowSearch/static/js/runtime-main.9cfb68eb.js",
+    "runtime-main.js.map": "/TVShowSearch/static/js/runtime-main.9cfb68eb.js.map",
+    "static/js/2.fc8ab9ec.chunk.js": "/TVShowSearch/static/js/2.fc8ab9ec.chunk.js",
+    "static/js/2.fc8ab9ec.chunk.js.map": "/TVShowSearch/static/js/2.fc8ab9ec.chunk.js.map",
+    "index.html": "/TVShowSearch/index.html",
+    "precache-manifest.738365e0574797f1c9be9cd13440be64.js": "/TVShowSearch/precache-manifest.738365e0574797f1c9be9cd13440be64.js",
+    "service-worker.js": "/TVShowSearch/service-worker.js",
+    "static/css/main.06baeb85.chunk.css.map": "/TVShowSearch/static/css/main.06baeb85.chunk.css.map",
+    "static/js/2.fc8ab9ec.chunk.js.LICENSE.txt": "/TVShowSearch/static/js/2.fc8ab9ec.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9cfb68eb.js",
+    "static/js/2.fc8ab9ec.chunk.js",
+    "static/css/main.06baeb85.chunk.css",
+    "static/js/main.70301067.chunk.js"
+  ]
+}
