@@ -8,9 +8,40 @@
     margin-bottom: 2rem;
 }
 
+@media (min-width: 2000px) {
+    .shows_list {
+        font-size: 140%;
+    }
+
+    .shows_list__header {
+        font-size: 140%;
+    }
+}
+
+@media (min-width: 3000px) {
+    .shows_list {
+        font-size: 250%;
+    }
+
+    .shows_list__header {
+        font-size: 200%;
+    }
+
+    #show_list--button {
+        font-size: 200%;
+        padding: 0.5rem;
+    }
+}
+
 @media (max-width: 1000px) {
     .shows_list {
         width: 100%;
-        padding: 2rem 2rem 4rem 4rem;
+        padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .shows_list {
+        text-align: center;
     }
 }

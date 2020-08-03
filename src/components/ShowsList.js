@@ -44,7 +44,7 @@ class ShowsList extends React.Component {
                             </div>
                             <div className="extra">
                                 <div onClick={() => this.moreButtonClicked(show)} className="ui animated button" tabIndex="0">
-                                    <div className="visible content">More</div>
+                                    <div id="show_list--button" className="visible content">More</div>
                                     <div className="hidden content">
                                         <i className="right arrow icon"></i>
                                     </div>

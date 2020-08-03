@@ -7,7 +7,7 @@ class SelectedShow extends React.Component {
         const { show } = this.props
 
         if (!show) {
-            return <div className="selected_show"></div>
+            return null
         }
 
         return (
