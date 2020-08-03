@@ -1,0 +1,9 @@
+.shows_list {
+    width: 50%;
+    padding: 2rem 2rem 4rem 4rem;
+}
+
+.shows_list__header {
+    text-align: center;
+    margin-bottom: 2rem;
+}

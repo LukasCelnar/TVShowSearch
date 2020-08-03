@@ -1,0 +1,9 @@
+.shows_list__input-container {
+    width: 100%;
+}
+
+#shows_list__input {
+    width: 100%;
+    font-size: 117%;
+    padding: 1rem;
+}
