@@ -5,6 +5,26 @@ import SearchInput from './SearchInput';
 import './ShowList.css';
 
 class ShowsList extends React.Component {
+    state = {
+        // opened true means that SelectedShow component is rendered while screen width is less then 1000px
+        opened: false
+    }
+
+    moreButtonClicked(show) {
+        this.props.selectShow(show)
+
+        if (window.innerWidth < 1000) {
+            this.setState({opened: !(this.state.opened)})
+        }
+    }
+
+    showsListClicked() {
+        if (this.state.opened) {
+            this.setState({opened: false})
+            this.props.selectShow(null)
+        }
+    }
+
 
     renderedShows() {
         return this.props.inputValue.map(show => {
@@ -23,7 +43,7 @@ class ShowsList extends React.Component {
                                 <p dangerouslySetInnerHTML={{__html: show.show.summary}}></p>
                             </div>
                             <div className="extra">
-                                <div onClick={() => this.props.selectShow(show)} className="ui animated button" tabIndex="0">
+                                <div onClick={() => this.moreButtonClicked(show)} className="ui animated button" tabIndex="0">
                                     <div className="visible content">More</div>
                                     <div className="hidden content">
                                         <i className="right arrow icon"></i>
@@ -40,7 +60,7 @@ class ShowsList extends React.Component {
     render() {
 
         return (
-            <div className="shows_list">
+            <div onClick={() => this.showsListClicked()} style={(window.innerWidth < 1000 && this.state.opened) ? {filter: 'blur(4px)'} : {}} className="shows_list">
                 <h1 className="shows_list__header">Search every TV Show that exist</h1>
                 <SearchInput />
 

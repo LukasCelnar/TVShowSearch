@@ -11,3 +11,10 @@ body {
 .app {
     display: flex;
 }
+
+
+@media (max-width: 600px) {
+    body {
+        font-size: 70%;
+    }
+}

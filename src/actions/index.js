@@ -1,5 +1,7 @@
 import tvmazeApi from '../apis/tvmazeApi';
 
+// Action Creators
+
 export const setInputValue = (value) => {
     return async (dispatch) => {
         const response = await tvmazeApi.get(`?q=${value}`)
